@@ -45,12 +45,12 @@ mixer.music.play()
 game = True
 finish = False
 clock = time.Clock()
-FPS = 60
+FPS = 100
  
 #створення м'яча та ракетки  
-racket1 = Player('K.png', 30, 200, 4, 40, 130) 
-racket2 = Player('L.png', 720, 200, 4, 40, 130)
-ball = GameSprite('M.png', 200, 200, 4, 80, 80)
+racket1 = Player('K.png', 30, 200, 5, 80, 80) 
+racket2 = Player('L.png', 720, 200, 5, 80, 80)
+ball = GameSprite('M.png', 200, 200, 6, 80, 80)
  
 font.init()
 font1 = font.SysFont("Arial", 35)
